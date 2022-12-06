@@ -1,37 +1,16 @@
-<footer class="footer">
-    <div class="container-fluid">
+<div class="footer">
+  <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 order-last order-md-first">
-          <div class="copyright text-center text-md-start">
-            <p class="text-sm">
-              Designed and Developed by
-              <a
-                href="https://plainadmin.com"
-                rel="nofollow"
-                target="_blank"
-              >
-                PlainAdmin
-              </a>
-            </p>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              Comprar <a href="https://www.github.com/onuhsani">Onuh Sani (Github)</a>.
           </div>
-        </div>
-        <!-- end col-->
-        <div class="col-md-6">
-          <div
-            class="
-              terms
-              d-flex
-              justify-content-center justify-content-md-end
-            "
-          >
-            <a href="#0" class="text-sm">Term & Conditions</a>
-            <a href="#0" class="text-sm ml-15">Privacy & Policy</a>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="text-md-right footer-links d-none d-sm-block">
+                  <a href="javascript: void(0);">About</a>
+                  <a href="javascript: void(0);">Support</a>
+                  <a href="javascript: void(0);">Contact Us</a>
+              </div>
           </div>
-        </div>
       </div>
-      <!-- end row -->
-    </div>
-    <!-- end container -->
-  </footer>
-  <!-- ========== footer end =========== -->
-</main>
+  </div>
+</div>

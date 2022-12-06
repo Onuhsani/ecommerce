@@ -1,11 +1,19 @@
-@include("layouts.admin-head")
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @include('layouts.admin-head')
+</head>
+<body>
+    <div class="dashboard-main-wrapper">
+        @include('layouts.admin-header')
+        @include('layouts.admin-aside')
 
-@include("layouts.admin-aside")
+        <div class="dashboard-wrapper">
+            @include('layouts.admin-section')
+            @include('layouts.admin-footer')
+        </div>
+    </div>
 
-@include("layouts.admin-header")
-
-@include("layouts.admin-section")
-
-@include("layouts.admin-footer")
-
-@include("layouts.admin-scripts")
+    @include('layouts.admin-scripts')
+</body>
+</html>

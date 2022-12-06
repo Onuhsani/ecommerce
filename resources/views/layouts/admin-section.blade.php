@@ -1,35 +1,8 @@
-<section class="section">
-    <div class="container-fluid">
-      <!-- ========== title-wrapper start ========== -->
-      {{-- <div class="title-wrapper pt-30">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="titlemb-30">
-              <h2>Title</h2>
-            </div>
+  <div class="container-fluid dashboard-content">
+      <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <h3 class="text-center">Content goes here!</h3>
+              @yield('content')
           </div>
-          <!-- end col -->
-          <div class="col-md-6">
-            <div class="breadcrumb-wrapper mb-30">
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item">
-                    <a href="#0">Dashboard</a>
-                  </li>
-                  <li class="breadcrumb-item active" aria-current="page">
-                    Page
-                  </li>
-                </ol>
-              </nav>
-            </div>
-          </div> --}}
-          <!-- end col -->
-        {{-- </div> --}}
-        <!-- end row -->
-      {{-- </div> --}}
-      <!-- ========== title-wrapper end ========== -->
-
-      @yield("content")
-    </div>
-    <!-- end container -->
-  </section>
+      </div>
+  </div>
