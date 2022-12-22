@@ -1,9 +1,11 @@
 <?php
 
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $title = "ADMIN";
+    Log::debug('Laravel logs');
     return view('welcome', compact('title'));
 });
 
